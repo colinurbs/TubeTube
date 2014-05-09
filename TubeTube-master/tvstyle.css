@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family:Georgia;
+background-image:url('wavegrid.png');	
+padding:0;
+line-height:24px;
+}
+ul {margin:3em;list-style-type: square;}
+#cont{
+width:100%;
+
+height:400px;
+margin:0;
+
+
+}
+#tv{
+	width:945px;
+	height:580px;
+	margin-left:auto;
+	margin-right:auto;
+	border:1px solid #111;
+	margin-top:70px;
+	background-image:url('wood.jpg');
+	   border-radius:5px;
+
+margin-bottom:20px;
+}
+screen.off{
+	margin:30px;
+	width:620px;
+	height:460px;
+	background-color:#000;
+	background-image: url('shot_1.png');
+	border-top:30px solid #444;
+border-right:30px solid #666;
+border-bottom:30px solid #999;
+border-left:30px solid #666;
+float:left;
+
+}
+screen.on{
+	margin:30px;
+	width:600px;
+	height:440px;
+	background-color:#000;
+	
+	border-top:40px solid #444;
+border-right:40px solid #666;
+border-bottom:40px solid #999;
+border-left:40px solid #666;
+float:left;
+
+}
+
+screen.chan1{
+	margin:30px;
+	width:600px;
+	height:440px;
+	background-color:#000;
+	background-image: url('test.gif');
+	border-top:40px solid #444;
+border-right:40px solid #666;
+border-bottom:40px solid #999;
+border-left:40px solid #666;
+float:left;
+
+}
+#vid{
+	width:620px;
+	height:460px;
+	border:thick solid;
+	border-radius:10px;	
+}
+
+#button{
+	color:white;
+	padding:10px;
+	background:#1a1a1a;
+	width:145px;
+	margin:10px;
+	border:thin solid #444;
+	cursor:pointer;
+}
+
+#button:active{
+
+		background:#222;
+		
+}
+
+#controls{
+	width:165px;
+  height:290px;
+	float:right;
+	background-color:#555;
+	
+	margin-right:30px;
+	margin-top:30px;
+	-moz-box-shadow: inset 0 0 5px 1px #444;
+-webkit-box-shadow: inset 0 0 5px 1px#444;
+box-shadow: inset 0 0 5px 1px #444;
+	border:thin solid #333;
+	}
+
+	
+	.dial{
+		font-family:Georgia;
+		cursor:pointer;
+		text-align:center;
+		width:120px;
+	height:120px;
+	boarder:thick solid;
+	background-color:#999;
+	border-radius:100px;
+		margin-left:auto;
+	margin-right:auto;
+	margin-top:15px;
+	
+	-moz-box-shadow: 0 0 5px 3px #444;
+-webkit-box-shadow: 0 0 5px 3px#444;
+box-shadow: 0 0 5px 3px #444;
+background-image:url('dial.jpg');
+background-size:101%;
+background-position:-1px -1px;
+	}
+	.dial:hover{
+		color:#555;
+
+	}
+	
+	
+#speaker{
+		border:thin solid #333;
+		width:165px;
+	height:200px;
+	float:right;
+	background-color:#555;
+	color:black;
+	margin-right:30px;
+	margin-top:30px;
+-moz-box-shadow: inset 0 0 5px 1px #444;
+-webkit-box-shadow: inset 0 0 5px 1px#444;
+box-shadow: inset 0 0 5px 1px #444;
+
+	}
+	
+	.grill{
+	width: 140px;
+	height:15px;
+	border-bottom:thick solid;
+	color:black;	
+	margin-left:auto;
+	margin-right:auto;
+	}
+	
+#playlist{
+	margin-top:10px;
+height:200px;
+width:1000%;
+background-color:#222;	
+opacity:0.8;
+margin-bottom:20px;
+	positionL
